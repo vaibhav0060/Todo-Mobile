@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main {
+
+  background-image: url(./images/bg1.png);
+  filter: blur(4px);
+    -webkit-filter: blur(3px);
+  height: 100vh;
+  width: 25vw;
+  margin-left: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  box-shadow: 2px 3px 5px grey;
+}
+  .pop {
+    background-color: white;
+    color: red;
+    align-content: center;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    padding: 35px;
+    margin: -68vh 9vw 15% 38vw;
+    width: 15%;
+    border: 2px red solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+  } 
+   #btn {
+    font-size: 20px;
+    background-color: rgb(243, 92, 5);
+    color: white;
+    border: 1px red;
+    border-radius: 30px;
+    padding: 6px 28px 6px 28px;
+  } 
+  @media (min-width:300px) and (max-width:520px) {
+    .main {
+      background-image: url(./images/bg1.png);
+      background-size: 100%;
+  filter: blur(4px);
+    -webkit-filter: blur(6px);
+      height: 95vh;
+      width: 80vw;
+      background-attachment: fixed;
+      margin-left: 10vw;
+      margin-top: 0%;
+      margin-right: 10vw;
+      display: flex;
+      /* flex-direction: column;
+      align-items: center; */
+      flex-wrap: wrap;
+      justify-content: center;
+      border: 1px solid black;
+      border-radius: 25px;
+      box-shadow: 2px 3px 5px grey;
+    }
+      .pop {
+        background-color: white;
+        color: red;
+        align-content: center;
+        margin: auto;
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+        padding: 31px;
+        margin:  -65vh  10vw  10vh 17%;
+        /* height: 13vh; */
+        width: 46%;
+        border: 2px red solid;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px grey;
+      }
+      #btn {
+        font-size: 20px;
+        background-color: rgb(243, 92, 5);
+        color: white;
+        border: 1px red;
+        border-radius: 30px;
+        padding: 6px 28px 6px 28px;
+      }
+  }

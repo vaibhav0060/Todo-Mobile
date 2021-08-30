@@ -1,0 +1,221 @@
+.main {
+    height: 100vh;
+    width: 25vw;
+    margin-left: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 2px 3px 5px grey;
+  }
+  
+.sm {
+    margin-left: 40vw;
+    width: 749px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .hm {
+    font-size: 42px;
+    font-weight: 700;
+  }
+  .hro {
+    font-family: "Raleway", sans-serif;
+    margin-left: 106px;
+    margin-right: 27px;
+    margin-top: 20px;
+  }
+  .hrt {
+    font-family: "Raleway", sans-serif;
+    margin-left: 1px;
+    margin-right: 117px;
+    margin-top: 18px;
+  }
+  .back {
+    color: grey;
+    /* font-family: 'Raleway', sans-serif; */
+    margin-top: 38px;
+    margin-left: 670px;
+    font-size: 30px;
+    word-spacing: 10px;
+  }
+  .arrow {
+    position: absolute;
+    margin-left: -8vw;
+margin-top: 1vh;
+    font-size: 30px;
+    padding: 1px 5px 5px 5px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .cm {
+    position: absolute;
+    margin: 32px 10px 10px 497px;
+    align-items: center;
+    border: 2px solid red;
+    height: 280px;
+    width: 260px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+    padding: 33px;
+  }
+  i {
+    color: red;
+    align-items: center;
+    font-size: 35px;
+    display: flex;
+    padding: 0px 10px 0px 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+ 
+
+    .tss {
+      color: #ee8208;
+      padding: 9px;
+      font-size: 38px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #ee8208;
+      padding: 7px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .dels {
+        font-size: 22px;
+      color: #e6480a;
+      font-weight: bold;
+      margin-right: -52px;
+      text-decoration-line: line-through;
+    }
+    
+    .checks {
+        font-size: 22px;
+      margin-left: -40px;
+    }
+.plus {
+    margin: 18vh 14vw;
+}
+
+
+
+@media (min-width:300px) and (max-width:520px) {
+  .main {
+    background-image: url(./images/bg1.png);
+    background-size: 100%;
+filter: blur(4px);
+  -webkit-filter: blur(6px);
+    height: 95vh;
+    width: 80vw;
+    background-attachment: fixed;
+    margin-left: 10vw;
+    margin-top: 0%;
+    margin-right: 10vw;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 2px 3px 5px grey;
+  }
+  .sm {
+    margin-left: 14vw;
+    width: 82%;
+    display: flex;
+    text-align: center;
+    margin-top: 4vh;
+    justify-content: center;
+  }
+  .hm {
+    font-size: 37px;
+    font-weight: 700;
+  }
+  .hro {
+    font-family: "Raleway", sans-serif;
+    margin-left: 106px;
+    margin-right: 27px;
+    margin-top: 20px;
+  }
+  .hrt {
+    font-family: "Raleway", sans-serif;
+    margin-left: 1px;
+    margin-right: 117px;
+    margin-top: 18px;
+  }
+ 
+  .arrow {
+    position: absolute;
+    margin-left: -29vw;
+margin-top: 1vh;
+    font-size: 30px;
+    padding: 1px 5px 5px 5px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .cm {
+    position: relative;
+    margin: 4vh 10vw 0vh 10vw;
+    align-items: center;
+    border: 2px solid red;
+    /* height: 280px; */
+    width: 60%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+    padding: 33px;
+  }
+  i {
+    color: red;
+    align-items: center;
+    font-size: 35px;
+    display: flex;
+    padding: 0px 10px 0px 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+ 
+
+    .tss {
+      color: #ee8208;
+      padding: 9px;
+      font-size: 38px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #ee8208;
+      padding: 7px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .dels {
+        font-size: 18px;
+      color: #e6480a;
+      font-weight: bold;
+      margin-right: -52px;
+      text-decoration-line: line-through;
+    }
+    
+    .checks {
+        font-size: 18px;
+      margin-left: -40px;
+    }
+.plus {
+  position: absolute;
+  bottom: -13vh;
+  left: 30vw;
+}
+p{
+  margin: 28vh 10vw;
+}
+
+}
